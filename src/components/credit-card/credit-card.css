@@ -1,0 +1,8 @@
+.credit-card {
+  max-width: 300px;
+}
+
+
+.credit-card > img {
+  height: 20px;
+}
