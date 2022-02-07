@@ -1,3 +1,4 @@
+import Greetings from "./components/greetings/greetings";
 import IdCard from "./components/id-card/id-card";
  
 function App() {
@@ -24,16 +25,16 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
 
-      {/* <h1>Greetings</h1>
+      <h1>Greetings</h1>
 
-      <Greetings lang="fr">
+      <Greetings lang="fr" className="mb-2">
         Peter
       </Greetings>
-      <Greetings lang="de">
+      <Greetings lang="de" className="mb-2">
         Bastian
       </Greetings>
 
-      <h1>Random</h1>
+      {/*<h1>Random</h1>
 
       <Random min={1} max={6}/>
       <Random min={1} max={100}/>

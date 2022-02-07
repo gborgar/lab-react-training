@@ -15,30 +15,3 @@ function IdCard({ className, lastName, firstName, gender, height, birth, picture
 }
 
 export default IdCard;
-
-
-
-
-
-
-// function IdCard(props) {
-//   return (
-//     <div className="idCard box">
-//        <img src={props.picture} alt={props.firstName}/>
-//       <div className="right">
-//         <strong>First name: </strong>{props.firstName}
-//         <br></br>
-//         <strong>Last name: </strong>{props.lastName}
-//         <br></br>
-//         <strong>Gender: </strong>{props.gender}
-//         <br></br>
-//         <strong>Height: </strong>{props.height}
-//         <br></br>
-//         <strong>Birth: </strong>{props.birth.toString().slice(4,15)}
-//         <br></br>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default IdCard;
