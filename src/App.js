@@ -1,5 +1,6 @@
 import Greetings from "./components/greetings/greetings";
 import IdCard from "./components/id-card/id-card";
+import Random from "./components/random/random";
  
 function App() {
 
@@ -34,12 +35,12 @@ function App() {
         Bastian
       </Greetings>
 
-      {/*<h1>Random</h1>
+      <h1>Random</h1>
 
-      <Random min={1} max={6}/>
-      <Random min={1} max={100}/>
+      <Random className="mb-2" min={1} max={6}/>
+      <Random className="mb-2" min={1} max={100}/>
 
-      <h1>BoxColor</h1>
+      {/*<h1>BoxColor</h1>
 
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} />
